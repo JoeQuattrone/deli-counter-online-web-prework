@@ -1,4 +1,5 @@
 katz_deli = []
+$ticket = 1
 
 def line(katz_deli)
   
