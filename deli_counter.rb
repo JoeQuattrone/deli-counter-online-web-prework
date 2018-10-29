@@ -18,7 +18,7 @@ end
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
   puts ("Welcome, #{name}. You are number #{katz_deli.length} in line.")
-<<<<<<< HEAD
+
 end
 
 def now_serving(katz_deli)
@@ -28,6 +28,8 @@ def now_serving(katz_deli)
   else person = katz_deli.shift()
     puts "Currently serving #{person}."
   end
-=======
->>>>>>> 03f1b70fedf3614aece19adf25b41a0c56d26e61
+
 end
+
+line = []
+take_a_number(line, "Joe")
