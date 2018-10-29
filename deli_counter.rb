@@ -40,3 +40,4 @@ end
 
 line = []
 take_a_number(line)
+take_a_number(line)
