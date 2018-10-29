@@ -24,7 +24,7 @@ def take_a_number(katz_deli)
   #2 output the ticket number and the place in line to the user
 
   
-  puts ("Welcome, your ticket number is #{ticket}. You are number #{katz_deli.length} in line.")
+  puts ("Welcome, your ticket number is #{$ticket}. You are number #{katz_deli.length} in line.")
  
 end
 
