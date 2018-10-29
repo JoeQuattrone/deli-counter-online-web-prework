@@ -34,5 +34,5 @@ end
 
 line = []
 #take_a_number(line, "Joe")
-take_a_number(line, "Sally")
+#take_a_number(line, "Sally")
 now_serving(line)
