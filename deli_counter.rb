@@ -18,8 +18,8 @@ end
 def take_a_number(katz_deli)
   #katz_deli is no longer an array of names but an array of ticket numbers
   #1. push the number 1 to the katz_deli array
-  begining = 1
-  katz_deli.push(begining)
+  
+  katz_deli.push(katz_deli.length + 1)
   #2 output the ticket number and the place in line to the user
 
   
