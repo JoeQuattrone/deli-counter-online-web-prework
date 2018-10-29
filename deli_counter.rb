@@ -18,9 +18,8 @@ end
 def take_a_number(katz_deli)
   // katz_deli is no longer an array of names but an array of ticket numbers
   katz_deli.push(name)
-  while katz_deli.length > 0 
   counter = 1
-  puts ("Welcome, your ticket number is #{counter}. You are number #{katz_deli.length} in line.")
+  puts ("Welcome, your ticket number is #{katz_deli}. You are number #{katz_deli.length} in line.")
 
 end
 
@@ -36,6 +35,4 @@ def now_serving(katz_deli)
 end
 
 line = []
-#take_a_number(line, "Joe")
-#take_a_number(line, "Sally")
-now_serving(line)
+take_a_number(line)
